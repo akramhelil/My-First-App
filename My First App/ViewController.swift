@@ -9,7 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var Welcomelabel: UILabel!
+    
+    @IBAction func pushme(_ sender: UIButton) {
+        Welcomelabel.text = "I LOVE YOU HUSBAND!!!"
+    }
 
+    @IBAction func push2(_ sender: AnyObject) {
+    Welcomelabel.text = "Yay second Button done!"
+        print("Button Pushed")
+        /*there's no need to add the
+                                                breakpoint
+ */
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
