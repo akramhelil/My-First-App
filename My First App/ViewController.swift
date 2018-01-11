@@ -3,7 +3,7 @@
 //  My First App
 //
 //  Created by Akram Helil on 10/30/17.
-//  Copyright © 2017 Akram Helil inc. All rights reserved.
+//  Copyright © 2017 Akram Helil. All rights reserved.
 //
 
 import UIKit
